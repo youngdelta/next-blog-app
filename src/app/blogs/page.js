@@ -2,7 +2,7 @@ import BlogOverview from '../comonents/blog-overview';
 
 async function fetchListOfBlogs() {
 	try {
-		const apiResponse = await fetch(``, {
+		const apiResponse = await fetch(`/api/delete-blogs`, {
 			method: 'GET',
 			cache: 'no-store',
 		});
