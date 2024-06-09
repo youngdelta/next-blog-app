@@ -2,7 +2,7 @@ import BlogOverview from '../comonents/blog-overview';
 
 async function fetchListOfBlogs() {
 	try {
-		const apiResponse = await fetch(`/api/delete-blogs`, {
+		const apiResponse = await fetch('https://iamai-next-blog-app.netlify.app/api/get-blogs', {
 			method: 'GET',
 			cache: 'no-store',
 		});
