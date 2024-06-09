@@ -2,7 +2,7 @@ import BlogOverview from '../comonents/blog-overview';
 
 async function fetchListOfBlogs() {
 	try {
-		const apiResponse = await fetch(`/api/get-blogs`, {
+		const apiResponse = await fetch(``, {
 			method: 'GET',
 			cache: 'no-store',
 		});
